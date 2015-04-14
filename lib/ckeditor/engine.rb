@@ -38,9 +38,5 @@ module Ckeditor
         require "ckeditor/hooks/pundit"
       end
     end
-
-    rake_tasks do
-      load Ckeditor.root_path.join("lib/tasks/ckeditor.rake")
-    end
   end
 end
